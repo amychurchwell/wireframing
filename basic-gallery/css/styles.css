@@ -1,0 +1,36 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+
+.header {
+  width: 90vw;
+  height: 10vh;
+  background-color: turquoise;
+  margin: auto;
+}
+
+.gallery {
+  height: 88vh;
+  border: 0px;
+}
+
+.photo{
+  height: 26.5vh;
+  width: 85vw;
+  background-color: chartreuse;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.gallery div:nth-last-child(-n+3){
+  display: none;
+}
