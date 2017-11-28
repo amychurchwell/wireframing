@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 .nav{
-  height: 10vh;
+  height: 8vh;
   width: 100vw;
   background-color: pink;
   text-align: center;
@@ -22,10 +22,13 @@ body {
 }
 .logo-div {
   overflow: hidden;
-  height: 5vh;
+  height: 100%;
+  width: 50vw;
+  float: left;
+  padding: 10px;
 }
 
-.nav ul {height: 5vh;padding: 0;margin: 4px;text-align: left;font-size: 4vh;}
+.nav ul {height: 100%;padding: 0;margin: 4px;text-align: left;font-size: 2.5vh;float: right;padding-top: 2%;}
 
 .nav li{
   display: inline-block;
@@ -33,8 +36,8 @@ body {
 }
 
 .smallcircle{
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   background-color: black;
   border-radius: 50%;
   float: left;
@@ -43,8 +46,9 @@ body {
 
 .logo {
   background-color: black;
-  height: 100%;
-  margin-left: 1%;
+  height: 40%;
+  margin-left: 4%;
+  margin-top: 3%;
   width: 20vw;
   float: left;
 }
@@ -59,15 +63,64 @@ body {
 
 .box {
   width: 93vw;
-  height: 12vh;
+  height: 14vh;
   background-color: black;
-  margin: 5px;
+  margin: 5px auto;
 }
 
 p {
   margin-bottom: 5px;
 }
 
-.box2 {
+.box:last-child {
   margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .hero {
+  overflow: auto;
+  margin: 10px;
+  padding: 10px;
+  }
+
+  .hero-text {
+    float: left;
+    width: 60%;
+  }
+
+  .bigcircle {
+    width: 35%;
+    float: right;
+    height: 254px;
+  }
+
+  .box {
+    width: 30%;
+    display: inline-block;
+    height: 14vh;
+    background-color: black;
+    margin: 5px 11px;
+  }
+  .content {
+    width: 50%;
+    background-color: magenta;
+    height: 85vh;
+  }
+
+  .right-content {
+    width: 50%;
+    float: right;
+    background-color: orange;
+    height: 85vh;
+  }
+
+  .paragraph{
+    padding: 10px;
+  }
+
+  img{
+    float: left;
+    margin: 2px;
+  }
+
 }
