@@ -57,3 +57,30 @@ body{
     height: 48vh;
   }
 }
+@media screen and (min-width: 1200px) {
+  .main {
+    background-color: cyan;
+    width: 78.8vw;
+    height: 99vh;
+    margin: auto;
+    float: left;
+    /* margin-right: 24px; */
+  }
+
+  .section1 {
+    width: 20vw;
+    background-color: salmon;
+    height: 48vh;
+    margin: auto;
+    margin-bottom: 18px;
+    float: right;
+  }
+
+  .section2 {
+    width: 20vw;
+    background-color: lime;
+    height: 49vh;
+    margin: auto;
+    float: right;
+  }
+}
