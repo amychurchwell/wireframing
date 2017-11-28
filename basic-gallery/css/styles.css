@@ -34,3 +34,44 @@
 .gallery div:nth-last-child(-n+3){
   display: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .photo{
+    height: 26.5vh;
+    width: 39vw;
+    background-color: chartreuse;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .gallery div:nth-last-child(-n+3){
+    display: block;
+  }
+
+  .gallery div:nth-child(even) {
+    float: right;
+    margin-right: 50px;
+  }
+
+  .gallery div:nth-child(odd) {
+    float: left;
+    margin-left: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .photo{
+    height: 26.5vh;
+    width: 30vw;
+    background-color: chartreuse;
+    margin: auto;
+    margin-top: 30px;
+    float: left;
+
+  }
+
+  .gallery div:nth-last-child(-n+3){
+    display: block;
+  }
+}
