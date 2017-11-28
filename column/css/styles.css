@@ -1,0 +1,73 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body {
+  margin: 0;
+}
+.nav{
+  height: 10vh;
+  width: 100vw;
+  background-color: pink;
+  text-align: center;
+  clear: left;
+}
+.logo-div {
+  overflow: hidden;
+  height: 5vh;
+}
+
+.nav ul {height: 5vh;padding: 0;margin: 4px;text-align: left;font-size: 4vh;}
+
+.nav li{
+  display: inline-block;
+  text-align: left;
+}
+
+.smallcircle{
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+  clear: right;
+}
+
+.logo {
+  background-color: black;
+  height: 100%;
+  margin-left: 1%;
+  width: 20vw;
+  float: left;
+}
+
+.bigcircle{
+  height: 140px;
+  width: 140px;
+  margin: auto;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.box {
+  width: 93vw;
+  height: 12vh;
+  background-color: black;
+  margin: 5px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.box2 {
+  margin-top: 10px;
+}
