@@ -28,7 +28,15 @@ body {
   padding: 10px;
 }
 
-.nav ul {height: 100%;padding: 0;margin: 4px;text-align: left;font-size: 2.5vh;float: right;padding-top: 2%;}
+.nav ul {
+    height: 100%;
+    padding: 0;
+    margin: 4px;
+    text-align: left;
+    font-size: 4vh;
+    float: left;
+    padding-top: 2%;
+}
 
 .nav li{
   display: inline-block;
@@ -36,8 +44,8 @@ body {
 }
 
 .smallcircle{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   background-color: black;
   border-radius: 50%;
   float: left;
@@ -48,7 +56,7 @@ body {
   background-color: black;
   height: 40%;
   margin-left: 4%;
-  margin-top: 3%;
+  margin-top: 5%;
   width: 20vw;
   float: left;
 }
@@ -76,7 +84,16 @@ p {
   margin-top: 10px;
 }
 
+.right-content{
+  display: none;
+}
+
+.content{
+  display: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px){
+
   .hero {
   overflow: auto;
   margin: 10px;
@@ -105,6 +122,7 @@ p {
     width: 50%;
     background-color: magenta;
     height: 85vh;
+    display: block;
   }
 
   .right-content {
@@ -112,6 +130,7 @@ p {
     float: right;
     background-color: orange;
     height: 85vh;
+    display: block;
   }
 
   .paragraph{
@@ -123,4 +142,22 @@ p {
     margin: 2px;
   }
 
+  .nav ul {
+    height: 100%;
+    padding: 0;
+    margin: 4px;
+    text-align: left;
+    font-size: 2.5vh;
+    float: right;
+    padding-top: 2%;
+  }
+
+  .smallcircle{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+    clear: right;
+  }
 }
