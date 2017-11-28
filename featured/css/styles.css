@@ -14,6 +14,7 @@
 body {
   margin: 0;
 }
+
 .buttons li{
   display: inline-block;
   background-color: pink;
@@ -21,7 +22,6 @@ body {
 }
 .buttons {
   padding: 0;
-
 }
 
 .headline1{
@@ -50,4 +50,46 @@ body {
   background-color: red;
   height: 3.5vh;
   width: 15vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+
+  .buttons{
+    float: right;
+  }
+
+  .logo{
+    float: left;
+  }
+
+  .photo-container{
+    background-color: salmon;
+    width: 44vw;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
+
+  .photo{
+    height: 45vh;
+    width: 44vw;
+    background-color: black;
+  }
+
+  .gallery .photo-container:nth-child(4n+ 3), .photo-container:nth-child(4n + 4){
+    background-color: blue;
+    float: left;
+
+  }
+
+  .gallery .photo-container:nth-child(4n+ 1), .photo-container:nth-child(4n + 2){
+    background-color: yellow;
+    float: left;
+
+  }
+  .nav {
+    overflow: auto;
+  }
+
 }
