@@ -13,6 +13,7 @@
 body{
   margin: 0;
 }
+
 .main {
   background-color: cyan;
   width: 99vw;
@@ -34,4 +35,25 @@ body{
   background-color: lime;
   height: 21vh;
   margin: auto;
+}
+
+@media screen and (min-width: 768px){
+  .main {
+    margin-bottom: 15px;
+  }
+
+  .section1{
+    float: left;
+    margin-left: 5px;
+    width: 48vw;
+    height: 48vh;
+  }
+
+  .section2{
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    width: 48vw;
+    height: 48vh;
+  }
 }
