@@ -62,16 +62,22 @@
 
 @media screen and (min-width: 1200px) {
   .photo{
-    height: 26.5vh;
+    height: 37.5vh;
     width: 30vw;
     background-color: chartreuse;
     margin: auto;
     margin-top: 30px;
+    margin-left: 25px;
     float: left;
-
   }
 
   .gallery div:nth-last-child(-n+3){
     display: block;
+  }
+  .header {
+    width: 98vw;
+    height: 16vh;
+    background-color: turquoise;
+    margin: auto;
   }
 }
