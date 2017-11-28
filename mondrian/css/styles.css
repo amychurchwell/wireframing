@@ -1,0 +1,37 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body{
+  margin: 0;
+}
+.main {
+  background-color: cyan;
+  width: 99vw;
+  height: 50vh;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.section1 {
+  width: 99vw;
+  background-color: salmon;
+  height: 21vh;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.section2 {
+  width: 99vw;
+  background-color: lime;
+  height: 21vh;
+  margin: auto;
+}
